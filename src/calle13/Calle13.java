@@ -87,7 +87,7 @@ public class Calle13 {
         int carga = read.nextInt();
         System.out.println("La carga en su lavadora es de: " + lv1.establecerCarga(carga) + " kg");
         System.out.println(lv1.establecerCicloLavado(carga));
-        System.out.println("");
+        System.out.println("Terminando el ciclo de lavado " + lv1.establecerCicloLavado(carga));
         
 
 

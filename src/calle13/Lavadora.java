@@ -19,7 +19,7 @@ public class Lavadora extends Electrodomestico {
             tanqueagua = true;
             if (tanqueagua==true) {
                 System.out.println("El tanque se llenó de agua");
-                return ciclovelocidad[0] = "Iniciando ciclo Normal con duracion 4 min";
+                ciclovelocidad[0] = "Iniciando ciclo Normal con duracion 4 min";
                 
             }
              

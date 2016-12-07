@@ -11,12 +11,12 @@ package calle13;
  */
 public class Televisor extends Electrodomestico {
 
-    double alto;  //cm
-    double ancho; //cm
-    int diagonal; //inches
+    private double alto;  //cm
+    private double ancho; //cm
+    private int diagonal; //inches
 
-    byte volumen = 0;
-    byte numerocanal = 2;//[];
+    private byte volumen = 0;
+    private byte numerocanal = 2;//[];
     //String nombrecanal[];
 
     boolean mute;
